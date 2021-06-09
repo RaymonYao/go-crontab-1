@@ -45,7 +45,7 @@ ETCDCTL_API=3 ./etcdctl watch "/cron/jobs/" --prefix
 - 下载
 
 ```
-go get go.etcd.io/etcd/clientv3
+go get go.etcd.io/etcd/client/v3
 ```
 
 - 连接客户端
